@@ -19,4 +19,8 @@ public class AnimaisService {
 		return animaisRepository.findAll();
 	}
 	
+	public Animais salvar(Animais animal) {
+		return animaisRepository.save(animal);
+	}
+	
 }
